@@ -1,0 +1,25 @@
+{
+    "name": "luanmessiascsgithub",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "webpack-dev-server --hot",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "vue": "latest",
+        "vue-template-compiler": "latest",
+        "vue-loader": "latest",
+        "webpack": "latest",
+        "webpack-cli": "latest",
+        "webpack-dev-server" :"latest",
+        "path": "latest",
+        "vue-router": "latest",
+        "style-loader": "latest",
+        "css-loader": "latest",
+        "vue-style-loader": "latest",
+        "sass-loader": "latest",
+        "sass": "latest",
+        "bootstrap": "latest",
+        "@popperjs/core": "latest"
+    }
+}
