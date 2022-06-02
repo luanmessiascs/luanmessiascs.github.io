@@ -9,7 +9,6 @@ module.exports = {
     },
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'public')
     },
     module: {
         rules: [
@@ -23,6 +22,13 @@ module.exports = {
                     'style-loader',
                     'css-loader',
                     'sass-loader'
+                ]
+            },
+            {
+                test: /\.css$/i,
+                use: [
+                    'vue-style-loader',
+                    'css-loader'
                 ]
             }
         ]

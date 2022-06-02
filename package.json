@@ -6,20 +6,20 @@
         "build": "webpack"
     },
     "devDependencies": {
+        "@popperjs/core": "latest",
+        "bootstrap": "latest",
+        "css-loader": "latest",
+        "path": "latest",
+        "sass": "latest",
+        "sass-loader": "latest",
+        "style-loader": "latest",
         "vue": "latest",
-        "vue-template-compiler": "latest",
         "vue-loader": "latest",
+        "vue-router": "latest",
+        "vue-style-loader": "latest",
+        "vue-template-compiler": "latest",
         "webpack": "latest",
         "webpack-cli": "latest",
-        "webpack-dev-server" :"latest",
-        "path": "latest",
-        "vue-router": "latest",
-        "style-loader": "latest",
-        "css-loader": "latest",
-        "vue-style-loader": "latest",
-        "sass-loader": "latest",
-        "sass": "latest",
-        "bootstrap": "latest",
-        "@popperjs/core": "latest"
+        "bootstrap-icons": "latest"
     }
 }
