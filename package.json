@@ -20,6 +20,7 @@
         "vue-template-compiler": "latest",
         "webpack": "latest",
         "webpack-cli": "latest",
-        "bootstrap-icons": "latest"
+        "bootstrap-icons": "latest",
+        "asset": "latest"
     }
 }

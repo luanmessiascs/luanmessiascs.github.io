@@ -1,6 +1,6 @@
 <template>
     <Menu />
-    <div id="content">
+    <div class="w-75" id="content">
         <router-view></router-view>
     </div>
 </template>
@@ -17,10 +17,8 @@
     div#content {
         position: absolute;
         top: 0px;
-        left: 2px;
-        width: 822px;
+        margin-left: 25%;
         height: 100%;
-        margin-left: 200px;
         border: 2px solid black;
         padding: 10px;
     }

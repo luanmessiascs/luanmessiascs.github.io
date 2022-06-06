@@ -15,24 +15,22 @@
     </div>
 </template>
 <style scoped>
-    /* fontes personalizadas que serão incluídas */
-
-    /* @charset "UTF-8";
+    @charset "UTF-8";
     @font-face {
         font-family: "WorkSans";
-        src: url("./fonts/WorkSans-Bold.ttf");
+        src: url("../../dist/654fc926b3717efad21c.ttf");
     }
 
     @font-face {
         font-family: "Exo2";
-        src: url("./fonts/Exo2-ExtraBoldItalic.ttf");
-    } */
+        src: url("../../dist/d8de505f08550a8e4c16.ttf");
+    }
 
     div#container-content {
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 200px;
+        width: 25%;
         height: 99.3%;
         background: #01262e;
         box-shadow: 1px 3px 3px black;
