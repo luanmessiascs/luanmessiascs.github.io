@@ -4,9 +4,6 @@
             <router-link class="navbar-brand" to="/">
                 Começo <span class="bi bi-pc-display-horizontal"></span>
             </router-link>
-            <span class="navbar-text">
-                Solução Inovadora, tanto no front, quanto no back.
-            </span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#menu" aria-controls="menu" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -14,6 +11,11 @@
             </button>
         </div>
         <div id="menu" class="collapse navbar-collapse">
+            <div class="container d-flex justify-content-center">
+                <span class="navbar-text">
+                    Solução Inovadora, tanto no front, quanto no back.
+                </span>
+            </div>
             <div class="container d-flex justify-content-center">
                 <ul class="nav">
                     <li class="nav-item">
